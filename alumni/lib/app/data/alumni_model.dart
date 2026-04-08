@@ -3,7 +3,7 @@ class Alumni {
   String nama;
   String prodi;
   int tahunLulus;
-  String status; // "Belum Dilacak", "Teridentifikasi", "Verifikasi Manual"
+  String status; 
   double confidenceScore;
   String? urlTemuan;
 
@@ -17,7 +17,6 @@ class Alumni {
     this.urlTemuan,
   });
 
-  // Konversi ke Map untuk penyimpanan lokal
   Map<String, dynamic> toMap() => {
     'id': id,
     'nama': nama,
